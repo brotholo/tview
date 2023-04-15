@@ -1,14 +1,14 @@
 package main
 
 import (
+	"github.com/brotholo/tview"
 	"github.com/gdamore/tcell/v2"
-	"github.com/rivo/tview"
 )
 
 const helloWorld = `[green]package[white] main
 
 [green]import[white] (
-    [red]"github.com/rivo/tview"[white]
+    [red]"github.com/brotholo/tview"[white]
 )
 
 [green]func[white] [yellow]main[white]() {

@@ -5,8 +5,8 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
+	"github.com/brotholo/tview"
 	"github.com/gdamore/tcell/v2"
-	"github.com/rivo/tview"
 )
 
 // Show a navigable tree view of the current directory.

@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"strings"
 
+	"github.com/brotholo/tview"
 	"github.com/gdamore/tcell/v2"
-	"github.com/rivo/tview"
 )
 
 const logo = `

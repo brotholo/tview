@@ -1,7 +1,7 @@
 /*
 A presentation of the tview package, implemented with tview.
 
-Navigation
+# Navigation
 
 The presentation will advance to the next slide when the primitive demonstrated
 in the current slide is left (usually by hitting Enter or Escape). Additionally,
@@ -16,8 +16,8 @@ import (
 	"fmt"
 	"strconv"
 
+	"github.com/brotholo/tview"
 	"github.com/gdamore/tcell/v2"
-	"github.com/rivo/tview"
 )
 
 // Slide is a function which returns the slide's main primitive and its title.

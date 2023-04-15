@@ -5,7 +5,6 @@ go 1.18
 require (
 	github.com/gdamore/tcell/v2 v2.6.0
 	github.com/lucasb-eyer/go-colorful v1.2.0
-	github.com/rivo/tview v0.0.0-20230406072732-e22ce9588bb4
 	github.com/rivo/uniseg v0.4.3
 )
 

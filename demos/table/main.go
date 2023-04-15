@@ -4,8 +4,8 @@ package main
 import (
 	"strings"
 
+	"github.com/brotholo/tview"
 	"github.com/gdamore/tcell/v2"
-	"github.com/rivo/tview"
 )
 
 func main() {
