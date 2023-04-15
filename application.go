@@ -1,6 +1,7 @@
 package tview
 
 import (
+	"fmt"
 	"sync"
 	"time"
 
@@ -371,6 +372,7 @@ EventLoop:
 				screen.Clear()
 				a.draw()
 			case *tcell.EventMouse:
+				fmt.Println(event.Buttons())
 				consumed, isMouseDownAction := a.fireMouseActions(event)
 				if consumed {
 					a.draw()
